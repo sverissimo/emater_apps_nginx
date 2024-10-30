@@ -1,0 +1,57 @@
+2024-10-21 22:58:55 - stoping Nginx...
+time="2024-10-21T22:58:55-03:00" level=warning msg="Found orphan containers ([nginx-nginx_prod-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_hmg-1  Running
+time="2024-10-21T22:58:55-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Running
+2024-10-21 22:58:55 - Nginx stopped.
+2024-10-21 23:01:13 - stoping Nginx...
+time="2024-10-21T23:01:13-03:00" level=warning msg="Found orphan containers ([nginx-nginx_prod-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_hmg-1  Running
+time="2024-10-21T23:01:13-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Running
+2024-10-21 23:01:13 - Nginx stopped.
+2024-10-21 23:01:37 - stoping Nginx...
+unknown shorthand flag: 'd' in -d
+unknown shorthand flag: 'd' in -d
+2024-10-21 23:01:37 - Nginx stopped.
+2024-10-21 23:01:47 - stoping Nginx...
+ Container nginx-nginx_hmg-1  Stopping
+ Container nginx-nginx_hmg-1  Stopped
+ Container nginx-nginx_hmg-1  Removing
+ Container nginx-nginx_hmg-1  Removed
+ Container nginx-nginx_prod-1  Stopping
+ Container nginx-nginx_prod-1  Stopped
+ Container nginx-nginx_prod-1  Removing
+ Container nginx-nginx_prod-1  Removed
+2024-10-21 23:01:47 - Nginx stopped.
+2024-10-21 23:04:33 - stoping Nginx...
+ Container nginx-nginx_hmg-1  Stopping
+ Container nginx-nginx_hmg-1  Stopped
+ Container nginx-nginx_hmg-1  Removing
+ Container nginx-nginx_hmg-1  Removed
+ Container nginx-nginx_prod-1  Stopping
+ Container nginx-nginx_prod-1  Stopped
+ Container nginx-nginx_prod-1  Removing
+ Container nginx-nginx_prod-1  Removed
+2024-10-21 23:04:34 - Nginx stopped.
+2024-10-21 23:09:37 - stoping Nginx...
+ Container nginx-nginx_hmg-1  Stopping
+ Container nginx-nginx_hmg-1  Stopped
+ Container nginx-nginx_hmg-1  Removing
+ Container nginx-nginx_hmg-1  Removed
+ Container nginx-nginx_prod-1  Stopping
+ Container nginx-nginx_prod-1  Stopped
+ Container nginx-nginx_prod-1  Removing
+ Container nginx-nginx_prod-1  Removed
+2024-10-21 23:09:38 - Nginx stopped.
+2024-10-21 23:33:04 - stoping Nginx...
+ Container nginx-nginx_hmg-1  Stopping
+ Container nginx-nginx_hmg-1  Stopped
+ Container nginx-nginx_hmg-1  Removing
+ Container nginx-nginx_hmg-1  Removed
+ Container nginx-nginx_prod-1  Stopping
+ Container nginx-nginx_prod-1  Stopped
+ Container nginx-nginx_prod-1  Removing
+ Container nginx-nginx_prod-1  Removed
+Warning: No resource found to remove for project "nginx".
+2024-10-21 23:33:05 - Nginx stopped.

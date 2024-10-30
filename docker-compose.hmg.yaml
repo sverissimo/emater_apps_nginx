@@ -1,0 +1,20 @@
+version: '3.9'
+
+services:
+  nginx_hmg:
+    image: nginx:latest
+    volumes:
+      - ./nginx.hmg.conf:/etc/nginx/nginx.conf
+      - ./nginx.server.conf:/etc/nginx/nginx.server.conf
+      - ./graphql_server/:/etc/nginx/graphql_server
+      - ./pnae/:/etc/nginx/pnae
+      - ../certificates:/etc/nginx/certs
+    ports:
+      - "3002:443"
+    networks:
+      - pnae_hmg_default
+    restart: "on-failure"
+
+networks:
+  pnae_hmg_default:
+    external: true

@@ -1,0 +1,147 @@
+2024-10-21 20:25:10 - Starting Nginx...
+stat /home/apps/docker-compose.hmg.yaml: no such file or directory
+stat /home/apps/docker-compose.prod.yaml: no such file or directory
+2024-10-21 20:25:10 - Nginx startup script completed.
+2024-10-21 20:25:33 - Starting Nginx...
+ Container nginx-nginx-1  Creating
+ Container nginx-nginx-1  Created
+ Container nginx-nginx-1  Starting
+Error response from daemon: driver failed programming external connectivity on endpoint nginx-nginx-1 (5c5db9b393328334a386b1eab0e670585e9945998241297013a6f42d3ffea43d): Bind for 0.0.0.0:3002 failed: port is already allocated
+stat /home/apps/nginx/docker-compose.prod.yaml: no such file or directory
+2024-10-21 20:25:33 - Nginx startup script completed.
+2024-10-21 20:26:21 - Starting Nginx...
+ Container nginx-nginx-1  Creating
+ Container nginx-nginx-1  Created
+ Container nginx-nginx-1  Starting
+Error response from daemon: driver failed programming external connectivity on endpoint nginx-nginx-1 (ade07666ee071b3659787b83b614c49daaee9986dede13e59e35b2d608e5c2d3): Bind for 0.0.0.0:3002 failed: port is already allocated
+stat /home/apps/nginx/docker-compose.prod.yaml: no such file or directory
+2024-10-21 20:26:21 - Nginx startup script completed.
+2024-10-21 20:33:08 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:33:09 - Nginx startup script completed.
+2024-10-21 20:36:34 - Starting Nginx...
+validating /home/apps/nginx/docker-compose.hmg.yaml: services.nginx_hmg Additional property service_name is not allowed
+2024-10-21 20:36:34 - Nginx startup script completed.
+2024-10-21 20:36:46 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/apps/certificates" to rootfs at "/etc/nginx/certs": mkdir /var/lib/docker/overlay2/ca79618e4fd78639d19a55c817d0829d1c7f9151302f807a0e38f5a60cc64793/merged/etc/nginx/certs: read-only file system: unknown
+2024-10-21 20:36:47 - Nginx startup script completed.
+2024-10-21 20:37:51 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/apps/certificates" to rootfs at "/etc/nginx/certs": mkdir /var/lib/docker/overlay2/60b62284ff7348f1f737a00e4ac666d3671ea82ffd10e50f8e8e9c73726ee6cc/merged/etc/nginx/certs: read-only file system: unknown
+2024-10-21 20:37:52 - Nginx startup script completed.
+2024-10-21 20:38:52 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting "/home/apps/certificates" to rootfs at "/etc/nginx/certs": mkdir /var/lib/docker/overlay2/8653c39c6c3ae9ce561d9aad6c8ad229c98bd52bcdaf34d02f5584a62afe5e5c/merged/etc/nginx/certs: read-only file system: unknown
+2024-10-21 20:38:53 - Nginx startup script completed.
+2024-10-21 20:42:50 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:42:51 - Nginx startup script completed.
+2024-10-21 20:45:30 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:45:31 - Nginx startup script completed.
+2024-10-21 20:49:13 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:49:14 - Nginx startup script completed.
+2024-10-21 20:50:20 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:50:21 - Nginx startup script completed.
+2024-10-21 20:52:14 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:52:15 - Nginx startup script completed.
+2024-10-21 20:53:26 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+2024-10-21 20:53:27 - Nginx startup script completed.
+ - Starting Nginx...
+ - Nginx startup script completed.
+ - Starting Nginx...
+ - Nginx startup script completed.
+2024-10-21 22:20:45 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+stat /home/apps/nginx/docker-compose.prod.yaml: no such file or directory
+2024-10-21 22:20:46 - Nginx startup script completed.
+2024-10-21 22:34:25 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+time="2024-10-21T22:34:26-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Creating
+ Container nginx-nginx_prod-1  Created
+ Container nginx-nginx_prod-1  Starting
+ Container nginx-nginx_prod-1  Started
+2024-10-21 22:34:26 - Nginx startup script completed.
+2024-10-21 23:02:58 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+time="2024-10-21T23:03:00-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Creating
+ Container nginx-nginx_prod-1  Created
+ Container nginx-nginx_prod-1  Starting
+ Container nginx-nginx_prod-1  Started
+2024-10-21 23:03:00 - Nginx startup script completed.
+2024-10-21 23:05:18 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+time="2024-10-21T23:05:19-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Creating
+ Container nginx-nginx_prod-1  Created
+ Container nginx-nginx_prod-1  Starting
+ Container nginx-nginx_prod-1  Started
+2024-10-21 23:05:20 - Nginx startup script completed.
+2024-10-21 23:28:12 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+time="2024-10-21T23:28:13-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Creating
+ Container nginx-nginx_prod-1  Created
+ Container nginx-nginx_prod-1  Starting
+ Container nginx-nginx_prod-1  Started
+2024-10-21 23:28:14 - Nginx startup script completed.
+2024-10-21 23:36:14 - Starting Nginx...
+ Container nginx-nginx_hmg-1  Creating
+ Container nginx-nginx_hmg-1  Created
+ Container nginx-nginx_hmg-1  Starting
+ Container nginx-nginx_hmg-1  Started
+time="2024-10-21T23:36:15-03:00" level=warning msg="Found orphan containers ([nginx-nginx_hmg-1]) for this project. If you removed or renamed this service in your compose file, you can run this command with the --remove-orphans flag to clean it up."
+ Container nginx-nginx_prod-1  Creating
+ Container nginx-nginx_prod-1  Created
+ Container nginx-nginx_prod-1  Starting
+ Container nginx-nginx_prod-1  Started
+2024-10-21 23:36:16 - Nginx startup script completed.
