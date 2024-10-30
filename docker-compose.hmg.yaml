@@ -5,6 +5,7 @@ services:
     image: nginx:latest
     volumes:
       - ./nginx.hmg.conf:/etc/nginx/nginx.conf
+      - ./nginx.http.conf:/etc/nginx/nginx.http.conf
       - ./nginx.server.conf:/etc/nginx/nginx.server.conf
       - ./graphql_server/:/etc/nginx/graphql_server
       - ./pnae/:/etc/nginx/pnae
