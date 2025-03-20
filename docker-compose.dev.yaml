@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   nginx_dev:
     container_name: nginx_dev
@@ -10,13 +8,18 @@ services:
       - ./nginx.server.conf:/etc/nginx/nginx.server.conf
       - ./graphql_server/:/etc/nginx/graphql_server
       - ./pnae/:/etc/nginx/pnae
+      - ./cmc/:/etc/nginx/cmc
       - ../certificates:/etc/nginx/certs
+      - /home/apps/certificacao_cafe/src/presentation/web/.next/static:/usr/share/nginx/html/static
     ports:
       - "3001:443"
     networks:
       - pnae_dev_default
+      - certificao_cafe_dev
     restart: "on-failure"
 
 networks:
   pnae_dev_default:
+    external: true
+  certificao_cafe_dev:
     external: true
