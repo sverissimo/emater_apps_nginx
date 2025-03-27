@@ -10,16 +10,17 @@ services:
       - ./pnae/:/etc/nginx/pnae
       - ./cmc/:/etc/nginx/cmc
       - ../certificates:/etc/nginx/certs
+      - ./pages/maintenance.html:/usr/share/nginx/html/maintenance.html
       - /home/apps/certificacao_cafe/src/presentation/web/.next/static:/usr/share/nginx/html/static
     ports:
       - "3001:443"
     networks:
+      - cmc_dev
       - pnae_dev_default
-      - certificao_cafe_dev
     restart: "on-failure"
 
 networks:
-  pnae_dev_default:
+  cmc_dev:
     external: true
-  certificao_cafe_dev:
+  pnae_dev_default:
     external: true

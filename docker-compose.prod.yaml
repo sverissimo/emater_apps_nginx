@@ -3,19 +3,24 @@ version: '3.9'
 services:
   nginx_prod:
     image: nginx:latest
+    container_name: nginx_prod
     volumes:
       - ./nginx.prod.conf:/etc/nginx/nginx.conf
       - ./nginx.http.conf:/etc/nginx/nginx.http.conf
       - ./nginx.server.conf:/etc/nginx/nginx.server.conf
       - ./graphql_server/:/etc/nginx/graphql_server
       - ./pnae/:/etc/nginx/pnae
+      - ./cmc/:/etc/nginx/cmc
       - ../certificates:/etc/nginx/certs
     ports:
       - "3003:443"
     networks:
       - pnae_prod_default
+      - cmc_prod
     restart: "on-failure"
 
 networks:
   pnae_prod_default:
+    external: true
+  cmc_prod:
     external: true
