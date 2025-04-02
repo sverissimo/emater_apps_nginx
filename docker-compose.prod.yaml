@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   nginx_prod:
     image: nginx:latest
@@ -12,6 +10,7 @@ services:
       - ./pnae/:/etc/nginx/pnae
       - ./cmc/:/etc/nginx/cmc
       - ../certificates:/etc/nginx/certs
+      - ./pages:/usr/share/nginx/html
     ports:
       - "3003:443"
     networks:
