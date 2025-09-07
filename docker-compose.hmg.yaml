@@ -1,8 +1,6 @@
-version: '3.9'
-
 services:
   nginx_hmg:
-    image: nginx:latest
+    image: nginx:stable
     container_name: nginx_hmg
     volumes:
       - ./nginx.hmg.conf:/etc/nginx/nginx.conf

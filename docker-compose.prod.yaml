@@ -1,6 +1,6 @@
 services:
   nginx_prod:
-    image: nginx:latest
+    image: nginx:stable
     container_name: nginx_prod
     volumes:
       - ./nginx.prod.conf:/etc/nginx/nginx.conf
