@@ -10,6 +10,7 @@ services:
       - ./pnae/:/etc/nginx/pnae
       - ./cmc/:/etc/nginx/cmc
       - ../certificates:/etc/nginx/certs
+      - ./pages:/usr/share/nginx/html
     ports:
       - "3002:443"
     networks:

@@ -9,6 +9,7 @@ services:
       - ./graphql_server/:/etc/nginx/graphql_server
       - ./pnae/:/etc/nginx/pnae
       - ./cmc/:/etc/nginx/cmc
+      - ./logs:/var/log/nginx
       - ../certificates:/etc/nginx/certs
       - ./pages:/usr/share/nginx/html
     ports:

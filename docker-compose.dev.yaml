@@ -10,7 +10,7 @@ services:
       - ./pnae/:/etc/nginx/pnae
       - ./cmc/:/etc/nginx/cmc
       - ../certificates:/etc/nginx/certs
-      - ./pages/maintenance.html:/usr/share/nginx/html/maintenance.html
+      - ./pages:/usr/share/nginx/html
       - /home/apps/certificacao_cafe/src/presentation/web/.next/static:/usr/share/nginx/html/static
     ports:
       - "3001:443"
